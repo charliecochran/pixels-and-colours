@@ -106,6 +106,8 @@ function onmousedown(ev) {
 };
 function onmouseup(ev) {
   mousedown = false;
+  oldx = null;
+  oldy = null;
   pixelthreshold();
   ev.preventDefault();
 };

@@ -39,6 +39,8 @@ function onmousedown(ev) {
 }
 function onmouseup(ev) {
   mousedown = false;
+  oldx = null;
+  oldy = null;
   ev.preventDefault();
 }
 function onmousemove(ev) {
